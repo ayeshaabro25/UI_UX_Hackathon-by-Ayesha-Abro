@@ -1,8 +1,28 @@
+// In src/app/page.tsx
 import React from 'react';
-import Shop from './shop';
+import Hero from './components/Hero';
+import ProductGrid from './components/ProductGrid';
+import NeutralUniverse from './components/NeutralUniverse';
+import FeaturedPost from './components/FeaturedPosts';
+import EditorPickGrid from './components/EditorsPick';
+import VitsClassic from './components/VitsClassic';
+import ProductCard from './components/ProductCard';
+import Breadcrumb from './components/BreadCrumb';
 
-const Page: React.FC = () => {
-  return <Shop />;
+
+const HomePage: React.FC = () => {
+  return (
+    <div>
+      <Hero/>
+      <Breadcrumb/>
+      <EditorPickGrid/>
+      <ProductGrid />
+      <VitsClassic/>
+      <NeutralUniverse />
+      <FeaturedPost/>
+    </div>
+  );
 };
 
-export default Page;
+export default HomePage;
+
