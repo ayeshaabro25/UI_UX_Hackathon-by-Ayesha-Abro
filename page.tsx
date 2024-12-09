@@ -6,7 +6,6 @@ import NeutralUniverse from './components/NeutralUniverse';
 import FeaturedPost from './components/FeaturedPosts';
 import EditorPickGrid from './components/EditorsPick';
 import VitsClassic from './components/VitsClassic';
-import ProductCard from './components/ProductCard';
 import Breadcrumb from './components/BreadCrumb';
 
 
